@@ -29,7 +29,7 @@ def main():
 
     # ✅ App Icon Support
     try:
-        root.iconbitmap("nagacrypt.ico")
+        root.iconbitmap("Icon.ico")
     except Exception as e:
         print(f"Icon could not be set: {e}")
 
