@@ -1,3 +1,7 @@
+# === App Metadata ===
+__app_name__ = "NagaCrypt Tool"
+__version__ = "v1.0.0"
+
 import traceback, sys
 import io, os, threading, time, struct
 import tkinter as tk
@@ -23,7 +27,7 @@ def safe_run(main_fn):
 
 def main():
     root = TkinterDnD.Tk()
-    root.title("NagaCrypt Tool")
+    root.title(f"{__app_name__}   {__version__}")
     root.geometry("440x340")
     root.resizable(False, False)
 
